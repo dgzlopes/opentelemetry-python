@@ -21,7 +21,7 @@ install:
   - pip install tox-travis
 
 script:
-  - tox --parallel
+  - tox --parallel--safe-build
 
 after_success:
   - pip install codecov
