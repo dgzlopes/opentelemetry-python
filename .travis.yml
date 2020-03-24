@@ -1,7 +1,11 @@
 dist: xenial
 
 language: python
-
+cache:
+  pip: true
+  directories:
+    - $TRAVIS_BUILD_DIR/.tox
+  
 python:
   - '3.4'
   - '3.5'
