@@ -45,7 +45,6 @@ setuptools.setup(
     install_requires=[
         "typing; python_version<'3.5'",
         "aiocontextvars; python_version<'3.7' and python_version>='3.5'",
-        "requests",
     ],
     extras_require={},
     license="Apache-2.0",
