@@ -24,7 +24,7 @@ services:
   - docker
 
 install:
-  - pip install tox-travis
+  - pip install tox-travis tox-pip-extensions
 
 script:
   - tox
