@@ -27,6 +27,7 @@ install:
   - pip install tox-travis
 
 script:
+  - chmod +x scripts/venv-update.py
   - tox
 
 after_success:
