@@ -5,6 +5,8 @@ cache:
   pip: true
   directories:
   - $TRAVIS_BUILD_DIR/.tox
+before_cache:
+  - rm -f -r $TRAVIS_BUILD_DIR/.tox/py*-coverage*
   
 python:
   - '3.4'
